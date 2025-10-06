@@ -9,9 +9,11 @@ body {
 
 
 header {
+  grid-column: 1 / -1;
   background-color: #63B3ED;
   color: #FFFFFF;
   padding: 40px 20px;
+  text-align: center;
 }
 
 .header-content {
@@ -120,4 +122,13 @@ aside h3 {
 .social-media a:hover,
 .archives a:hover {
   text-decoration: underline;
+}
+
+footer {
+  grid-column: 1 / -1; 
+  background-color: #2C5282;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }

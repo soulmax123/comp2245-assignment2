@@ -99,3 +99,25 @@ aside h3 {
 .about h3 {
   color: #000000;
 }
+
+.social-media h3,
+.archives h3 {
+  color: #48BB78;
+}
+
+.social-media ul,
+.archives ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media a,
+.archives a {
+  color: #4299E1;
+  text-decoration: none;
+}
+
+.social-media a:hover,
+.archives a:hover {
+  text-decoration: underline;
+}

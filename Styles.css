@@ -84,3 +84,18 @@ aside {
 .post-grid.reverse {
   grid-template-columns: 1fr 2fr;
 }
+
+aside h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about {
+  background-color: #E2E8F0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  color: #000000;
+}
